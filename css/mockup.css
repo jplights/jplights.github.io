@@ -393,6 +393,13 @@ header.masthead p {
     }
 }
 
+@media (max-width: 500px) {
+    .tabs {   
+        flex-direction: row;
+        width: 80%;
+    }
+}
+
 
 .tabs h4{
   font-weight: 700;
