@@ -213,7 +213,7 @@ header.masthead p {
     position: relative;
     /*margin: 0 auto;
     /*max-width: 800px;*/
-	margin-top:50px;
+  margin-top:50px;
 }
 
 #folio h1{
@@ -221,9 +221,9 @@ header.masthead p {
 }
 
 #folio .portfolio-item img{
-	border:6px solid gray;
-	width:370px;
-	height:230px;
+  border:6px solid gray;
+  width:370px;
+  height:230px;
   object-fit:cover;
 }
 
@@ -237,6 +237,13 @@ header.masthead p {
     #folio .portfolio-item img {   
       width: 700px;
       height: 300px;
+    }
+}
+
+@media (max-width: 570px) {
+    #folio .portfolio-item img {   
+      width: 550px;
+      height: 230px;
     }
 }
 
@@ -255,13 +262,13 @@ header.masthead p {
 
 @media (max-width: 360px) {
     #folio .portfolio-item img {   
-      width: 250px;
+      width: 325px;
     }
 }
 
 @media (max-width: 320px) {
     #folio .portfolio-item img {   
-      width: 10px;
+      width: 100%;
     }
 }
 
@@ -282,13 +289,14 @@ header.masthead p {
     }
 }
 
+
 #folio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
 
  #folio .portfolio-item .portfolio-link .nohigh {
   Cursor:not-allowed; 
-	background:transparent;
+  background:transparent;
 } 
 
 #folio .portfolio-item .portfolio-link .caption .caption-content {
@@ -318,7 +326,7 @@ header.masthead p {
 }
 
 #contact h4{
-	color: #fff;
+  color: #fff;
 }
 
 .modal {
