@@ -515,7 +515,7 @@ header.masthead p {
 }
 
 .illustrator{
-  width: 15%; 
+  width: 25%; 
   background-color: #cd9800;
   animation: illus 2s ease-out;
 }
@@ -582,7 +582,7 @@ header.masthead p {
     width: 0px;
   }
   100% {
-    width: 15%;
+    width: 25%;
   }
 }
 
