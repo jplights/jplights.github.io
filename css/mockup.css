@@ -282,6 +282,12 @@ header.masthead p {
     }
 }
 
+@media (max-width: 320px) {
+    #folio .portfolio-item .portfolio-link .caption {   
+      width: 20%;
+    }
+}
+
 #folio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
