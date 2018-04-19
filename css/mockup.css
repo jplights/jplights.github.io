@@ -261,7 +261,7 @@ header.masthead p {
 
 @media (max-width: 320px) {
     #folio .portfolio-item img {   
-      width: 250px;
+      width: 10px;
     }
 }
 
@@ -279,12 +279,6 @@ header.masthead p {
 @media (max-width: 1000px) {
     #folio .portfolio-item .portfolio-link .caption {   
       width: 90%;
-    }
-}
-
-@media (max-width: 320px) {
-    #folio .portfolio-item .portfolio-link .caption {   
-      width: 20%;
     }
 }
 
