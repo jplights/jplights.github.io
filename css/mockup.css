@@ -255,7 +255,7 @@ header.masthead p {
 
 @media (max-width: 360px) {
     #folio .portfolio-item img {   
-      width: 325px;
+      width: 250px;
     }
 }
 
