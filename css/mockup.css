@@ -233,6 +233,12 @@ header.masthead p {
     }
 }
 
+@media (max-width: 850px) {
+    #folio .portfolio-item img {   
+      width: 500px;
+    }
+}
+
 @media (max-width: 768px) {
     #folio .portfolio-item img {   
       width: 700px;
