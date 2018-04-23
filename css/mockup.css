@@ -365,6 +365,7 @@ header.masthead p {
 
 .linker{
   color: #F05F40;
+  padding-right: 5px;
 }
 
 .info{
@@ -496,143 +497,148 @@ header.masthead p {
   padding-left: 0;
 }
 
-.skills {
-  text-align: left;
-  padding-left: 10px;
-  line-height: 40px;
-  color: white;
-  font-weight: 900;
+.skillbar {
+  position:relative;
+  display:block;
+  margin-bottom:15px;
+  width:100%;
+  background:#eee;
+  height:35px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -webkit-transition:0.4s linear;
+  -moz-transition:0.4s linear;
+  -ms-transition:0.4s linear;
+  -o-transition:0.4s linear;
+  transition:0.4s linear;
+  -webkit-transition-property:width, background-color;
+  -moz-transition-property:width, background-color;
+  -ms-transition-property:width, background-color;
+  -o-transition-property:width, background-color;
+  transition-property:width, background-color;
 }
 
-.html {
-  width: 85%; 
+.skillbar-title {
+  position:absolute;
+  top:0;
+  left:0;
+width:110px;
+  font-weight:bold;
+  font-size:13px;
+  color:#ffffff;
+  background:#6adcfa;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:4px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+  display:block;
+  padding:0 20px;
+  height:35px;
+  line-height:35px;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:3px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+  height:35px;
+  width:0px;
+  background:#6adcfa;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+  position:absolute;
+  right:10px;
+  top:0;
+  font-size:11px;
+  height:35px;
+  line-height:35px;
+  color:#ffffff;
+  color:rgba(0, 0, 0, 0.4);
+}
+
+#title {
+  background-color: transparent; 
+}
+
+#html-content {
   background-color: #AC1730; 
-  display: inline-block;
-  animation: html 2s ease-out;
 }
 
-.css {
-  width: 80%; 
+#css-title {
+  background-color: #25826b;
+}
+
+#css-content {
   background-color: #2B967B;
-  animation: css 2s ease-out;
 }
-.js {
-  width: 50%; 
+
+#js-title {
+  background-color: #687c17;
+}
+
+#js-content {
   background-color: #829B1D;
-  animation: js 2s ease-out;
-}
-.ps {
-  width: 75%; 
-  background-color: #1C5A9A;
-  animation: ps 2s ease-out;
 }
 
-.illustrator{
-  width: 25%; 
+#ps-title {
+  background-color: #46465e;
+}
+
+#ps-content {
+  background-color: #5a68a5;
+}
+
+#ill-title {
+  background-color: #a47900;
+}
+
+#ill-content {
   background-color: #cd9800;
-  animation: illus 2s ease-out;
 }
 
-.wordpress{
-  width: 45%; 
-  background-color: #868DB7;
-  animation: wordpress 2s ease-out;
+#wp-title {
+  background-color: #767ead;
 }
 
-.sql{
-  width: 55%; 
+#wp-content {
+  background-color: #868db7;
+}
+
+#sql-title {
+  background-color: #b84e7f;
+}
+
+#sql-content {
   background-color: #BF608C;
-  animation: sql 2s ease-out;
 }
 
-.php{
-  width: 35%; 
+#php-title {
+  background-color: #0b5775;
+}
+
+#php-content {
   background-color: #0D688C;
-  animation: php 2s ease-out;
 }
 
-.android{
-  width: 45%; 
+#and-title {
+  background-color: #8caa22;
+}
+
+#and-content {
   background-color: #9EBF26;
-  animation: android 2s ease-out;
-}
-
-@keyframes html {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 85%;
-  }
-}
-@keyframes css {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 80%;
-  }
-}
-@keyframes js {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 50%;
-  }
-}
-@keyframes ps {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 75%;
-  }
-}
-
-@keyframes illus {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 25%;
-  }
-}
-
-@keyframes wordpress {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 45%;
-  }
-}
-
-@keyframes sql {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 55%;
-  }
-}
-
-@keyframes php {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 35%;
-  }
-}
-
-@keyframes android {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 45%;
-  }
 }
 
 /*--ABOUT-SELF-CSS--*/
